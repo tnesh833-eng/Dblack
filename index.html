@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tharunesh S — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <nav>
+        <a class="nav-logo" href="#">TS</a>
+        <ul class="nav-links">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#timeline">Journey</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-inner">
+            <div class="hero-left reveal">
+                <div class="hero-badge">Available for Opportunities</div>
+                <h1 class="hero-name">Tharunesh<br/><em>S.</em></h1>
+                <p class="hero-role"><strong>CS Engineering Student</strong> &middot; Motivation Speaker<br/><span class="typer" id="typer"></span></p>
+                <div class="hero-stats">
+                    <div class="stat-item"><div class="stat-num">3+</div><div class="stat-lbl">Projects</div></div>
+                    <div class="stat-item"><div class="stat-num">5+</div><div class="stat-lbl">Skills</div></div>
+                    <div class="stat-item"><div class="stat-num">2024</div><div class="stat-lbl">Regulation</div></div>
+                </div>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-p">View Projects</a>
+                    <a href="#contact" class="btn-o">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-right reveal">
+                <div class="photo-wrap">
+                    <div class="glow-ring"></div>
+                    <div class="deco-dot tl"></div><div class="deco-dot tr"></div>
+                    <div class="deco-dot bl"></div><div class="deco-dot br"></div>
+                    <div class="photo-frame" id="photoFrame">
+                        <img src="tharun.jpeg" alt="Tharunesh S"/>
+                        <div class="photo-overlay"></div>
+                        <div class="photo-label">
+                            <div class="photo-name">Tharunesh S</div>
+                            <div class="photo-title">Future Shining Star &#10023;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint"><span>Scroll</span><div class="scroll-arrow"></div></div>
+    </section>
+
+    <section id="skills">
+        <div class="reveal"><p class="s-label">What I Know</p><h2 class="s-title">Skills <span>&amp; Abilities</span></h2></div>
+        <div class="skills-wrap">
+            <div class="skill-glass reveal"><div class="s-icon">&#127760;</div><div class="s-name">HTML</div><div class="s-desc">Structuring web pages with clean, semantic markup and best practices.</div><span class="s-tag pro">Proficient</span></div>
+            <div class="skill-glass reveal"><div class="s-icon">&#127908;</div><div class="s-name">Motivation Speaking</div><div class="s-desc">Inspiring audiences through powerful, impactful public speaking.</div><span class="s-tag pro">Proficient</span></div>
+            <div class="skill-glass reveal"><div class="s-icon">&#128202;</div><div class="s-name">MS Office</div><div class="s-desc">Word, Excel, PowerPoint &mdash; creating polished documents and presentations.</div><span class="s-tag pro">Proficient</span></div>
+            <div class="skill-glass reveal"><div class="s-icon">&#127912;</div><div class="s-name">CSS</div><div class="s-desc">Styling responsive, beautiful layouts &mdash; actively growing every day.</div><span class="s-tag learn">Learning</span></div>
+            <div class="skill-glass reveal"><div class="s-icon">&#9889;</div><div class="s-name">JavaScript</div><div class="s-desc">Bringing interactivity and dynamic behaviour to web pages.</div><span class="s-tag learn">Learning</span></div>
+        </div>
+    </section>
+
+    <section id="timeline">
+        <div class="reveal"><p class="s-label">Education Journey</p><h2 class="s-title">My <span>Timeline</span></h2></div>
+        <div class="timeline-wrap">
+            <div class="t-item reveal"><div class="t-dot">&#127983;</div><div class="t-body"><div class="t-year">2021 &ndash; 2022</div><div class="t-title">Primary &amp; Middle School</div><div class="t-sub">Built a strong academic foundation with curiosity, discipline, and love of learning.</div><span class="t-badge">Foundation</span></div></div>
+            <div class="t-item reveal"><div class="t-dot">&#128218;</div><div class="t-body"><div class="t-year">2022 &ndash; 2023</div><div class="t-title">High School (8th &ndash; 10th)</div><div class="t-sub">Developed interest in science and technology. Scored well in board exams and began exploring public speaking.</div><span class="t-badge">Growth</span></div></div>
+            <div class="t-item reveal"><div class="t-dot">&#128300;</div><div class="t-body"><div class="t-year">2023 &ndash; 2024</div><div class="t-title">Higher Secondary (11th &ndash; 12th)</div><div class="t-sub">Chose Computer Science stream. Learned core programming concepts and began the motivational speaking journey.</div><span class="t-badge">Discovery</span></div></div>
+            <div class="t-item reveal"><div class="t-dot active">&#128187;</div><div class="t-body"><div class="t-year">2026 &ndash; Present</div><div class="t-title">B.E. Computer Science &amp; Engineering</div><div class="t-sub">Studying at P.S.V. College of Engineering &amp; Technology, Krishnagiri under Regulation 2024. Focused on AI/ML, DBMS, Data Structures, and Web Development.</div><span class="t-badge">Current &#10022;</span></div></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="reveal"><p class="s-label">What I've Built</p><h2 class="s-title">Projects <span>&amp; Initiatives</span></h2></div>
+        <div class="proj-grid">
+            <div class="proj-card reveal"><div class="proj-thumb" style="--tc:rgba(255,215,0,0.07)"><div class="proj-thumb-bg"></div><span style="position:relative;z-index:1">&#10024;</span></div><div class="proj-body"><p class="proj-tag">Personal Vision &amp; Mission</p><h3 class="proj-title">Future Shining Star</h3><p class="proj-desc">A movement to inspire students and youth to believe in themselves, aim higher, and become the brightest version of who they are.</p></div></div>
+            <div class="proj-card reveal"><div class="proj-thumb" style="--tc:rgba(74,222,128,0.07)"><div class="proj-thumb-bg"></div><span style="position:relative;z-index:1">&#128167;</span></div><div class="proj-body"><p class="proj-tag">Environment &amp; Advocacy</p><h3 class="proj-title">Water Conservation</h3><p class="proj-desc">An awareness initiative educating communities about responsible water use and rainwater harvesting &mdash; fighting water scarcity across Tamil Nadu.</p></div></div>
+            <div class="proj-card reveal"><div class="proj-thumb" style="--tc:rgba(52,211,153,0.07)"><div class="proj-thumb-bg"></div><span style="position:relative;z-index:1">&#127807;</span></div><div class="proj-body"><p class="proj-tag">Environmental Advocacy</p><h3 class="proj-title">Environment Project</h3><p class="proj-desc">Promoting green habits, pollution-free living, and environmental awareness through campaigns and community drives.</p></div></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="reveal"><p class="s-label">Let's Connect</p><h2 class="s-title">Get In <span>Touch</span></h2></div>
+        <div style="display:flex;justify-content:center">
+            <div class="contact-glass reveal">
+                <p style="font-size:0.92rem;font-weight:300;color:var(--muted);line-height:1.8">Open to collaborations, internships, and conversations about tech, motivation, and the environment. Let's build something great together.</p>
+                <a class="contact-email" href="mailto:tnesh833@gmail.com">tnesh833@gmail.com</a>
+                <div class="socials">
+                    <a class="soc-link" href="https://github.com/tnesh833-eng" target="_blank">GitHub</a>
+                    <a class="soc-link" href="https://www.linkedin.com/in/tharunesh-s-37891a333?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+                    <a class="soc-link" href="https://www.instagram.com/back_to_tharun_420?igsh=M2Jxb2Y3bDUwd3R2" target="_blank">Instagram</a>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <footer>&copy; 2025 Tharunesh S &nbsp;&middot;&nbsp; Future Shining Star &#10023; &nbsp;&middot;&nbsp; P.S.V. College of Engg. &amp; Tech., Krishnagiri</footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
